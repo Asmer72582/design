@@ -1,0 +1,389 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    z-index: 1000;
+    align-items: center;
+    padding-right: 150px;
+}
+
+nav ul li a{
+    padding: 0 20px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    font-size: 24px;
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+nav a h2 {
+    font-size: 34px;
+    padding-right: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bgsvg {
+    position: absolute;
+    height: 560px;
+    top: 0;
+    right: 0%;
+    z-index: -1;
+
+}
+
+nav h2 {
+    padding-left: 140px;
+    font-size: 32px;
+}
+
+.info {
+    z-index: 1000;
+    width: 40%;
+    padding-left: 140px;
+
+}
+
+.info h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    font-size: 53px;
+    line-height: 0;
+}
+
+.info p {
+    color: #828089;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+}
+
+.cir1 {
+    padding: 10px;
+    color: white;
+    width: 200px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    outline: none;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #0283E9, #FC01CA);
+    border-image-slice: 1;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    margin-top: 40px;
+
+}
+
+.text {
+    width: 400px;
+    font-size: 29px;
+    margin-left: 250px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.image {
+    z-index: 1000;
+    padding-top: 50px;
+    padding-right: 180px;
+}
+
+.card {
+    width: 360px;
+    height: 550px;
+    float: right;
+    padding: 10px 20px;
+    margin-right: 200px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    /* margin-bottom: 20px; */
+    z-index: 1000;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.dis p {
+    color: #828089;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.textbox {
+    width: 50%;
+
+}
+
+.textbox h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    font-size: 53px;
+    line-height: 0;
+}
+
+.textbox p {
+    color: #828089;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+}
+
+.btn {
+    padding: 10px;
+    color: white;
+    width: 200px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    outline: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #0283E9, #FC01CA);
+    border-image-slice: 1;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    margin-top: 40px;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex h5 {
+    width: 100px;
+    font-size: 17px;
+    color: #828089;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.contactinfo {
+    background-color: #2B2B2B;
+    height: 200px;
+}
+
+.flex svg {
+    margin-right: 30px;
+}
+
+.title h3 {
+    font-size: 24px;
+    line-height: 0;
+}
+
+.card2 {
+    width: 360px;
+    height: 550px;
+
+    padding: 10px 20px;
+    margin-left: 200px;
+    margin-top: 250px;
+
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-bottom: 20px;
+
+}
+
+.card3 {
+    width: 360px;
+    height: 550px;
+    float: right;
+    padding: 10px 20px;
+    margin-right: 200px;
+    margin-top: -150px;
+
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-bottom: 20px;
+
+}
+
+.flex .review {
+    text-align: center;
+    margin: 30px;
+}
+
+.clients {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.clients h2 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    font-size: 53px;
+    line-height: 0;
+}
+
+.flex .review p {
+    color: #828089;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+}
+
+.flex .review h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 0;
+}
+
+
+.img {
+    transform: translateY(-70px);
+
+    height: 270px;
+}
+
+.allin {
+    transform: translateY(-40px);
+}
+
+.contact {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+    background-color: #4e4e4e;
+
+    height: 100px;
+    align-items: center;
+}
+
+.contact h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 23px;
+    padding-right: 20px;
+    line-height: 0;
+}
+
+.contact input {
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    padding-right: 55px;
+    border: none;
+    outline: none;
+}
+
+.contactinfo p {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    align-items: center;
+
+}
+
+
+.contact button {
+    padding: 5px;
+    background-image: linear-gradient(to right, #0283E9, #FC01CA);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+
+    transform: translateX(-45px);
+}
+.contactbox{
+    margin:  auto;
+    width: 80%;
+    border-radius: 8px;
+    background-color: white;    
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 20px 0;
+    /* height: 700px; */
+    margin-bottom: 100px;
+    margin-top: 20px;
+    
+}
+.contactbox #g{
+    background: linear-gradient(to right, #0283E9, #FC01CA);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 800;
+  font-weight: 900;
+  text-decoration: underline;
+  
+}
+.contactbox h3{
+    padding-left: 50px;
+    font-size: 22px;
+  font-family: 'Roboto Mono', monospace;
+}
+.contactform{
+
+    width: 50%;
+    margin-left: 50px;
+    
+}
+.contactform input, textarea,button{
+    width: 80%;
+    float: left;
+    padding: 10px 20px;
+    margin: 10px 0;
+    margin-left: 0;
+    resize: none;
+}
+.contactform button{
+    background-image: linear-gradient(to right, #0283E9, #FC01CA);
+    border: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactform input, textarea:active{
+    overflow: none;
+    
+}
+.contactdisc .address{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* margin: 10px 0; */
+}
+button{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1324px) {
+    body {
+      display: none;
+    }
+  }
